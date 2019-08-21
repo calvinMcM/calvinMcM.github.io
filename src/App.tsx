@@ -1,14 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Button from '@material-ui/core/Button';
+import { AppBar, Container, IconButton, Toolbar, Typography, MuiThemeProvider } from "@material-ui/core";
+import MenuIcon from "@material-ui/icons/Menu";
+import React from "react";
+import ReactDOM from "react-dom";
+import useStyles from "./Style";
+import theme from "./Theme";
 
 function App() {
-  return (
-    // <Button variant="contained" color="primary">
-    //   Hello World
-    // </Button>
-    <h1>Hello World</h1>
-  );
+  const classes = useStyles();
+    return (
+      <MuiThemeProvider theme={theme}>
+        <Container maxWidth="lg" className={classes.root}>
+            <AppBar>
+                <Toolbar>
+                    <Typography>Calvin McMurray</Typography>
+                    <IconButton edge="end" color="inherit">
+                        <MenuIcon />
+                    </IconButton>
+                </Toolbar>
+            </AppBar>
+        </Container>
+      </MuiThemeProvider>
+    );
 }
 
-ReactDOM.render(<App />, document.getElementById('react'));
+ReactDOM.render(<App />, document.getElementById("react"));
