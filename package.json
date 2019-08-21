@@ -6,8 +6,9 @@
   "scripts": {
     "test": "test",
     "build": "./node_modules/.bin/tsc",
+    "build-dev": "./node_modules/.bin/tsc --watch",
     "pack": "./node_modules/.bin/webpack",
-    "build-dev": "./node_modules/.bin/tsc --watch"
+    "pack-dev": "./node_modules/.bin/webpack --watch"
   },
   "repository": {
     "type": "git",
