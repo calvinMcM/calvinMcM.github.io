@@ -1,0 +1,34 @@
+{
+  "name": "calvinmcm.github.io",
+  "version": "1.0.0",
+  "description": "Personal Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "./node_modules/.bin/tsc",
+    "pack": "./node_modules/.bin/webpack",
+    "build-dev": "./node_modules/.bin/tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvinMcM/calvinMcM.github.io.git"
+  },
+  "author": "Calvin McMurray",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/calvinMcM/calvinMcM.github.io/issues"
+  },
+  "homepage": "https://github.com/calvinMcM/calvinMcM.github.io#readme",
+  "dependencies": {
+    "@material-ui/core": "^4.3.2",
+    "@types/react-dom": "^16.9.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "babel-loader": "^8.0.6",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "transfer-webpack-plugin": "^0.1.4",
+    "typescript": "^3.5.3",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
