@@ -71,7 +71,7 @@ export const WorkCard: React.FC = props => {
                 </ul>
             </Card.Body>
             <Card.Footer>
-                <a href="/public/Calvin_McMurray_Resume_2021.pdf" download className="btn btn-small btn-danger">Resume</a>
+                <a href="/Calvin_McMurray_Resume_2021.pdf" download className="btn btn-small btn-danger">Resume</a>
             </Card.Footer>
         </Card>
     )
@@ -130,7 +130,7 @@ export const Opinions: React.FC = props => {
                         phenomenal project I've used and would shout out here about for indie game devs. I've built some fun toys with that
                         in both professional and family projects.
 
-                        <a href="public/sheets-credits.csv" download>Download LCP Image Credits</a>
+                        <a href="sheets-credits.csv" download>Download LCP Image Credits</a>
                     </p>
                 </Section>
             </Card.Body>

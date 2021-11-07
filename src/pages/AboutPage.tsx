@@ -26,12 +26,12 @@ export const AboutThisSite: React.FC = props => {
             <Card.Header>
                 <b>Family</b>
             </Card.Header>
-            <Card.Img src="public/img/Wedding.jpg" aria-placeholder="Wedding Photo"></Card.Img>
+            <Card.Img src="img/Wedding.jpg" aria-placeholder="Wedding Photo"></Card.Img>
             <Card.Body>
                 My wife Emmalee and I were sealed for time and all eternity in the Las Vegas Temple in April of 2016. She is the love of my life, my trusted confidant, and my
                 daily dose of inspiration.
             </Card.Body>
-            <Card.Img src="public/img/Fam.jpg" aria-placeholder="Family Photo"></Card.Img>
+            <Card.Img src="img/Fam.jpg" aria-placeholder="Family Photo"></Card.Img>
             <Card.Body>
                 In 2020, we welcomed our son, Lincoln to the family. He's a handful, but boy is he cute. Favorite words currently include "w<i>O</i>w!" and "Eeew!"
             </Card.Body>
@@ -70,7 +70,7 @@ export const ChurchCard: React.FC = props => {
                 </p>
             </Card.Body>
             <Card.Footer>
-                <a href="/public/Calvin_McMurray_Resume_2021.pdf" download className="btn btn-small btn-danger">Resume</a>
+                <a href="/Calvin_McMurray_Resume_2021.pdf" download className="btn btn-small btn-danger">Resume</a>
             </Card.Footer>
         </Card>
     )
@@ -99,9 +99,6 @@ export const InterestCard: React.FC = props => {
                     BeatBoxers project, and mostly do Blender for my stuff on the side.
                 </p>
             </Card.Body>
-            <Card.Footer>
-                <a href="/public/Calvin_McMurray_Resume_2021.pdf" download className="btn btn-small btn-danger">Resume</a>
-            </Card.Footer>
         </Card>
     )
 }
