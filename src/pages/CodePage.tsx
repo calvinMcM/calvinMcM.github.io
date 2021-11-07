@@ -125,13 +125,12 @@ export const Opinions: React.FC = props => {
                         getting too caught up in the "hey, that's mine!" game where it makes sense.
 
                         My page and games are even using some of that type of thing. I've been playing around with modifying tiles/tilesets
-                        from <a href="https://opengameart.org/art-search?keys=LPC">OGA's LCP collection</a>, and have been falling in love
+                        from <a href="https://opengameart.org/art-search?keys=LPC">OGA's LPC collection</a>, and have been falling in love
                         with <a href="http://kenney.nl">Kenney's stuff.</a> <a href="https://www.mapeditor.org/">Tiled</a> is another
                         phenomenal project I've used and would shout out here about for indie game devs. I've built some fun toys with that
                         in both professional and family projects.
-
-                        <a href="public/sheets-credits.csv" download>Download LCP Image Credits</a>
                     </p>
+                    <a href="public/sheets-credits.csv" className="btn btn-dark" download>Download LPC Image Credits</a>
                 </Section>
             </Card.Body>
         </Card>
