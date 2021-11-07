@@ -47,11 +47,16 @@ code {
 }
 
 .hero_shot{
-    background-image: url('public/img/SampleShot.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    height: calc(100vh - 40px);
+    position: fixed;
+    width: calc(100vw - 5rem);
     padding:0;
+}
+
+.hero_shot img {
+    position: fixed;
+    max-width: calc(100vw - 5rem);
+    bottom:0;
+    right:0;
 }
 
 .sidebar-icon:hover {

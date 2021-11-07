@@ -1,13 +1,18 @@
 import React from 'react';
-import { Col, Container, Row } from 'react-bootstrap';
+import { Col, Container, Row, Image } from 'react-bootstrap';
+import Me from "../img/favicon.png"
+import Tactics from "../img/SampleShot.png"
 
 export const MainPage: React.FC = props => {
     return (
-        <Container fluid className="hero_shot">
+        <Container fluid>
+            <div className="hero_shot">
+                <Image src={Tactics}></Image>
+            </div>
             <Row>
                 <Col>
                     <br />
-                    <h1><img src="public/img/favicon.png"></img> Hi, I'm Calvin McMurray,</h1>
+                    <h1><img src={Me}></img> Hi, I'm Calvin McMurray,</h1>
                     <br />
                     <br />
                     <Container>
