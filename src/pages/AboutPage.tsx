@@ -88,7 +88,9 @@ export const InterestCard: React.FC = props => {
                 </p>
                 <p>
                     I'm also into game design. I'm obscurely published - a Steam game called <a href="https://store.steampowered.com/app/954070/Beat_Boxers/">BeatBoxers</a>
-                    and a <a href="https://recordquest.familytech.byu.edu/" target="_blank">family- history-themed adventure/RPG</a>. but I like to fool around.
+                    and a <a href="https://recordquest.familytech.byu.edu/" target="_blank">family- history-themed adventure/RPG</a>.
+                </p>
+                <p>
                     I liked Final Fantasy Tactics and Tactics Ogre as a kid, so I'm kind of in love with the isometric RPG aesthetic, so I've been playing
                     around more formally with some of that stuff. Nothing significant yet, but getting my design and experience goals finalized.
                 </p>

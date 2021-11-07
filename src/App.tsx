@@ -7,6 +7,9 @@ import { MainPage } from './pages/MainPage';
 import { CodePage } from './pages/CodePage';
 import { AboutPage } from './pages/AboutPage';
 
+function resetScroll(){
+    document.getElementById("main-content").scrollTop = 0;
+}
 function App() {
     const [state, setState] = useState({ tab: "home-page" })
 
@@ -25,17 +28,17 @@ function App() {
             <Container fluid>
                 <Row>
                     <Col xs={"auto"} className="sidebar">
-                        <div className="sidebar-icon" onClick={() => setState({ tab: "home-page" })}>
+                        <div className="sidebar-icon" onClick={() => {setState({ tab: "home-page" }); resetScroll(); }}>
                             <FontAwesomeIcon icon={faHome} size={"lg"}></FontAwesomeIcon>
                         </div>
-                        <div className="sidebar-icon" onClick={() => setState({ tab: "about-page" })}>
+                        <div className="sidebar-icon" onClick={() => {setState({ tab: "about-page" }); resetScroll(); }}>
                             <FontAwesomeIcon icon={faUser} size={"lg"}></FontAwesomeIcon>
                         </div>
-                        <div className="sidebar-icon" onClick={() => setState({ tab: "code-page" })}>
+                        <div className="sidebar-icon" onClick={() => {setState({ tab: "code-page" }); resetScroll(); }}>
                             <FontAwesomeIcon icon={faCode} size={"lg"}></FontAwesomeIcon>
                         </div>
                     </Col>
-                    <Col className="main-content">
+                    <Col id="main-content">
                         <TabContainer activeKey={state.tab}>
                             <TabContent>
                                 <TabPane eventKey="home-page">
